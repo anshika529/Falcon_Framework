@@ -1,0 +1,19 @@
+2020-12-02 12:45:38,601  INFO [TestNG-suites-1] HomePage:51 - Click on SignUp Link
+2020-12-02 12:45:38,874  INFO [TestNG-suites-1] HomePage:51 - Insert Username to Signup
+2020-12-02 12:45:39,249  INFO [TestNG-suites-1] HomePage:51 - Insert Password to Signup
+2020-12-02 12:45:39,430  INFO [TestNG-suites-1] HomePage:51 - Click On SignUp Button
+2020-12-02 12:45:39,557  INFO [TestNG-suites-1] HomePage:51 - Getting Alert Message
+2020-12-02 12:45:40,827  INFO [TestNG-suites-1] HomePage:51 - Alert Message = This user already exist.
+2020-12-02 12:45:50,472  INFO [TestNG-suites-1] HomePage:51 - Click on SignUp Link
+2020-12-02 12:45:50,627  INFO [TestNG-suites-1] HomePage:51 - Insert Username to Signup
+2020-12-02 12:45:51,163  INFO [TestNG-suites-1] HomePage:51 - Insert Password to Signup
+2020-12-02 12:45:51,392  INFO [TestNG-suites-1] HomePage:51 - Click On SignUp Button
+2020-12-02 12:45:51,481  INFO [TestNG-suites-1] HomePage:51 - Getting Alert Message
+2020-12-02 12:45:52,567  INFO [TestNG-suites-1] HomePage:51 - Alert Message = This user already exist.
+2020-12-02 12:46:03,123  INFO [TestNG-suites-1] HomePage:51 - Click on SignUp Link
+2020-12-02 12:46:03,238  INFO [TestNG-suites-1] HomePage:51 - Insert Username to Signup
+2020-12-02 12:46:03,469  INFO [TestNG-suites-1] HomePage:51 - Insert Password to Signup
+2020-12-02 12:46:03,631  INFO [TestNG-suites-1] HomePage:51 - Click On SignUp Button
+2020-12-02 12:46:03,777  INFO [TestNG-suites-1] HomePage:51 - Getting Alert Message
+2020-12-02 12:46:03,849  INFO [TestNG-suites-1] HomePage:51 - Alert Message = Please fill out Username and Password.
+2020-12-02 12:46:05,055 ERROR [com.atmecs.falcon.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false

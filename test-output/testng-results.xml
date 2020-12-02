@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable signupTest is: signupTest]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_10_chrome_84 is: WIN_10_chrome_84]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [signupTest]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon.testscript.SignupTest"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Click on SignUp Link]]>
+    </line>
+    <line>
+      <![CDATA[Insert Username to Signup]]>
+    </line>
+    <line>
+      <![CDATA[Insert Password to Signup]]>
+    </line>
+    <line>
+      <![CDATA[Click On SignUp Button]]>
+    </line>
+    <line>
+      <![CDATA[Getting Alert Message]]>
+    </line>
+    <line>
+      <![CDATA[Alert Message = This user already exist.]]>
+    </line>
+    <line>
+      <![CDATA[Click on SignUp Link]]>
+    </line>
+    <line>
+      <![CDATA[Insert Username to Signup]]>
+    </line>
+    <line>
+      <![CDATA[Insert Password to Signup]]>
+    </line>
+    <line>
+      <![CDATA[Click On SignUp Button]]>
+    </line>
+    <line>
+      <![CDATA[Getting Alert Message]]>
+    </line>
+    <line>
+      <![CDATA[Alert Message = This user already exist.]]>
+    </line>
+    <line>
+      <![CDATA[Click on SignUp Link]]>
+    </line>
+    <line>
+      <![CDATA[Insert Username to Signup]]>
+    </line>
+    <line>
+      <![CDATA[Insert Password to Signup]]>
+    </line>
+    <line>
+      <![CDATA[Click On SignUp Button]]>
+    </line>
+    <line>
+      <![CDATA[Getting Alert Message]]>
+    </line>
+    <line>
+      <![CDATA[Alert Message = Please fill out Username and Password.]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-WIN_10_chrome_84" duration-ms="43435" started-at="2020-12-02T07:15:21Z" finished-at="2020-12-02T07:16:04Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="43435" started-at="2020-12-02T07:15:21Z" finished-at="2020-12-02T07:16:04Z">
+      <class name="com.atmecs.falcon.testscript.SignupTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="preSetup" is-config="true" duration-ms="153" started-at="2020-12-02T07:15:21Z" finished-at="2020-12-02T07:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="testSignUp" duration-ms="17313" started-at="2020-12-02T07:15:23Z" data-provider="DataSheet" finished-at="2020-12-02T07:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anshika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anshika@05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on SignUp Link]]>
+            </line>
+            <line>
+              <![CDATA[Insert Username to Signup]]>
+            </line>
+            <line>
+              <![CDATA[Insert Password to Signup]]>
+            </line>
+            <line>
+              <![CDATA[Click On SignUp Button]]>
+            </line>
+            <line>
+              <![CDATA[Getting Alert Message]]>
+            </line>
+            <line>
+              <![CDATA[Alert Message = This user already exist.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="initalizeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="initalizeBrowser" is-config="true" duration-ms="0" started-at="2020-12-02T07:15:23Z" finished-at="2020-12-02T07:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="closeBrowser" is-config="true" duration-ms="1004" started-at="2020-12-02T07:15:40Z" finished-at="2020-12-02T07:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="testSignUp" duration-ms="10734" started-at="2020-12-02T07:15:41Z" data-provider="DataSheet" finished-at="2020-12-02T07:15:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on SignUp Link]]>
+            </line>
+            <line>
+              <![CDATA[Insert Username to Signup]]>
+            </line>
+            <line>
+              <![CDATA[Insert Password to Signup]]>
+            </line>
+            <line>
+              <![CDATA[Click On SignUp Button]]>
+            </line>
+            <line>
+              <![CDATA[Getting Alert Message]]>
+            </line>
+            <line>
+              <![CDATA[Alert Message = This user already exist.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="initalizeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="initalizeBrowser" is-config="true" duration-ms="0" started-at="2020-12-02T07:15:41Z" finished-at="2020-12-02T07:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="closeBrowser" is-config="true" duration-ms="1150" started-at="2020-12-02T07:15:52Z" finished-at="2020-12-02T07:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initalizeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="initalizeBrowser" is-config="true" duration-ms="1" started-at="2020-12-02T07:15:53Z" finished-at="2020-12-02T07:15:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeBrowser -->
+        <test-method status="PASS" signature="testSignUp(java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="testSignUp" duration-ms="10131" started-at="2020-12-02T07:15:53Z" data-provider="DataSheet" finished-at="2020-12-02T07:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Click on SignUp Link]]>
+            </line>
+            <line>
+              <![CDATA[Insert Username to Signup]]>
+            </line>
+            <line>
+              <![CDATA[Insert Password to Signup]]>
+            </line>
+            <line>
+              <![CDATA[Click On SignUp Button]]>
+            </line>
+            <line>
+              <![CDATA[Getting Alert Message]]>
+            </line>
+            <line>
+              <![CDATA[Alert Message = Please fill out Username and Password.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="closeBrowser" is-config="true" duration-ms="581" started-at="2020-12-02T07:16:03Z" finished-at="2020-12-02T07:16:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:com.atmecs.falcon.testscript.SignupTest@3b0ae896]" name="teardown" is-config="true" duration-ms="357" started-at="2020-12-02T07:16:04Z" finished-at="2020-12-02T07:16:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-711', ip: '192.168.63.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\anshika.negi\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aecc104076da2bb34422078e18a7d06b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-711', ip: '192.168.63.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\anshika.negi\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aecc104076da2bb34422078e18a7d06b
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:117)
+at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.atmecs.falcon.testscript.SignupTest -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_10_chrome_84 -->
+</testng-results>
