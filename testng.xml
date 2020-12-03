@@ -4,6 +4,7 @@
 <suite name="CompanySetup">
 
 	<suite-files>
+		
 		<suite-file path="./src/main/resources/suitefile/signupTest.xml" />
 		<suite-file path="./src/main/resources/suitefile/loginTest.xml" />
 	</suite-files>

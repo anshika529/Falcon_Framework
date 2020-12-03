@@ -8,17 +8,17 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Falcon-Sample-WIN_10_chrome_84</th></tr>
-<tr><td><a href="#t0">SampleTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">43,435</td><td></td><td></td></tr>
+<tr><th colspan="7">Falcon-Sample-WIN_10_chrome_84 </th></tr>
+<tr><td><a href="#t0">SampleTest</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">126,572</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Falcon-Sample-WIN_10_chrome_84</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.atmecs.falcon.testscript.SignupTest</td><td><a href="#m0">teardown</a></td><td rowspan="1">1606893364431</td><td rowspan="1">357</td></tr><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.atmecs.falcon.testscript.SignupTest</td><td><a href="#m1">testSignUp</a></td><td rowspan="3">1606893353719</td><td rowspan="3">10131</td></tr><tr class="passedeven"><td><a href="#m2">testSignUp</a></td></tr><tr class="passedeven"><td><a href="#m3">testSignUp</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Falcon-Sample-WIN_10_chrome_84 </th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.atmecs.falcon.testscript.SignupTest</td><td><a href="#m0">teardown</a></td><td rowspan="1">1606997938404</td><td rowspan="1">296</td></tr><tr><th colspan="4">SampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.atmecs.falcon.testscript.SignupTest</td><td><a href="#m1">testSignUp</a></td><td rowspan="1">1606997837510</td><td rowspan="1">12681</td></tr><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.atmecs.falcon.testscript.SignupTest</td><td><a href="#m2">testSignUp</a></td><td rowspan="2">1606997853122</td><td rowspan="2">84835</td></tr><tr class="passedeven"><td><a href="#m3">testSignUp</a></td></tr></tbody>
 </table>
 <h2>SampleTest</h2><h3 id="m0">com.atmecs.falcon.testscript.SignupTest#teardown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\anshika.negi\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: aecc104076da2bb34422078e18a7d06b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\anshika.negi\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 314214ac07140af12f5f50303990358c
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -28,13 +28,34 @@ Session ID: aecc104076da2bb34422078e18a7d06b
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
 	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:117)
-	at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:24)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:22)
+	at com.atmecs.falcon.runner.TestNGRunner.main(TestNGRunner.java:61)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.atmecs.falcon.testscript.SignupTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Click on SignUp Link<br/>Insert Username to Signup<br/>Insert Password to Signup<br/>Click On SignUp Button<br/>Getting Alert Message<br/>Alert Message = Please fill out Username and Password.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.atmecs.falcon.testscript.SignupTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>abc</td><td>abc@123</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Click on SignUp Link<br/>Insert Username to Signup<br/>Insert Password to Signup<br/>Click On SignUp Button<br/>Getting Alert Message<br/>Alert Message = This user already exist.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.atmecs.falcon.testscript.SignupTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Anshika</td><td>Anshika@05</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Click on SignUp Link<br/>Insert Username to Signup<br/>Insert Password to Signup<br/>Click On SignUp Button<br/>Getting Alert Message<br/>Alert Message = This user already exist.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.atmecs.falcon.testscript.SignupTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.atmecs.falcon.testdata.Userdata@9efe898</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Click on SignUp Link<br/>Insert Username to Signup</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\anshika.negi\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 785de5fbaa782cbf5fa48eb8841d6150
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at com.atmecs.falcon.automation.ui.selenium.TextField.enterTextField(TextField.java:45)
+	at com.atmecs.falcon.pages.SignupPage.signUp(SignupPage.java:25)
+	at com.atmecs.falcon.testscript.SignupTest.testSignUp(SignupTest.java:35)
+	at com.atmecs.falcon.runner.TestNGRunner.main(TestNGRunner.java:61)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.atmecs.falcon.testscript.SignupTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.atmecs.falcon.testdata.Userdata@3167101b</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Click on SignUp Link<br/>Insert Username to Signup<br/>Insert Password to Signup<br/>Click On SignUp Button<br/>Getting Alert Message<br/>Alert Message = Please fill out Username and Password.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.atmecs.falcon.testscript.SignupTest#testSignUp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.atmecs.falcon.testdata.Userdata@530ff96b</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Click on SignUp Link<br/>Insert Username to Signup<br/>Insert Password to Signup<br/>Click On SignUp Button<br/>Getting Alert Message<br/>Alert Message = This user already exist.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

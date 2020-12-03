@@ -12,8 +12,6 @@ public class SampleTestSuiteBase {
 	public String os,osVersion,br,browserVersion;
 	public Browser browser;
 
-	
-
 	@BeforeClass
 	public void preSetup() {
 		browser = new Browser();

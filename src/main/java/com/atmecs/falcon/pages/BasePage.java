@@ -4,7 +4,6 @@ import com.atmecs.falcon.automation.ui.selenium.Browser;
 
 public class BasePage {
 	Browser browser;
-
 	public BasePage(Browser browser) {
 		this.browser = browser;
 	}

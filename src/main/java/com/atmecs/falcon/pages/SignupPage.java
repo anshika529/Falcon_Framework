@@ -18,7 +18,7 @@ public class SignupPage extends BasePage{
 	
 	}
 	public void signUp(String username, String password) {
-		System.out.println("UserName ="+ username);
+		System.out.println("Username ="+ username);
 		System.out.println("Password ="+ password);
 		report.info("Insert Username to Signup");
 		browser.getWait().waitForElementPresence(LocatorType.XPATH, signupPageProperties.get("SignupUsername"),5000);

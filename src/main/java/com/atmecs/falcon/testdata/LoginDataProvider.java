@@ -1,4 +1,4 @@
-package com.atmecs.falcon.utils;
+package com.atmecs.falcon.testdata;
 
 import java.io.IOException;
 
@@ -7,8 +7,8 @@ import org.testng.annotations.DataProvider;
 import com.atmecs.falcon.automation.util.parser.XlsReader;
 import com.atmecs.falcon.constant.FilePathConstants;
 
-public class ExcelDataProvider {
-@DataProvider(name = "DataSheet")
+public class LoginDataProvider {
+@DataProvider(name = "LoginSheet")
 	
 	public static Object[][] getXlsData () {
 		XlsReader xlsReader = new XlsReader();
@@ -17,22 +17,22 @@ public class ExcelDataProvider {
 		} catch (IOException e) {
 		e.printStackTrace();
 		}
-		String sheetName = "DataSheet";
+		String sheetName = "LoginSheet";
 		int rowCount = xlsReader.getRowCount(sheetName);
 		int colCount = xlsReader.getColumnCount(sheetName);
 
 		System.out.println("rowCount =" + rowCount);
 		System.out.println("colCount =" + colCount);
 
-		Object[][] data = new Object[rowCount][colCount];
+		Object[][] data = new Object[rowCount][1];
 
 		for (int rowIndex = 1; rowIndex < rowCount + 1; rowIndex++) {
-		for (int columnIndex = 0; columnIndex < colCount; columnIndex++) {
-		String value = xlsReader.getCellDataByColumnIndex(sheetName, columnIndex, rowIndex);
-		data[rowIndex - 1][columnIndex] = value;
+			Userdata userdata = new Userdata();
+			userdata.setLoginUsername(xlsReader.getCellDataByColumnIndex(sheetName, 0, rowIndex));
+			userdata.setLoginPassword(xlsReader.getCellDataByColumnIndex(sheetName, 1, rowIndex));
+			data[rowIndex - 1][0] = userdata;
 		}
-
-		}
-		return data;
+	return data;
 }
+
 }

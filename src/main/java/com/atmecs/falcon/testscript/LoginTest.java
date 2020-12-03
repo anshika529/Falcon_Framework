@@ -7,8 +7,10 @@ import org.testng.annotations.Test;
 import com.atmecs.falcon.automation.util.parser.PropertyParser;
 import com.atmecs.falcon.pages.HomePage;
 import com.atmecs.falcon.pages.LoginPage;
+import com.atmecs.falcon.testdata.LoginDataProvider;
+import com.atmecs.falcon.testdata.Userdata;
 import com.atmecs.falcon.testsuite.SampleTestSuiteBase;
-import com.atmecs.falcon.utils.ExcelDataProvider;
+
 
 public class LoginTest extends SampleTestSuiteBase {
 String url = PropertyParser.readEnvOrConfigProperty("url");
@@ -23,15 +25,15 @@ String url = PropertyParser.readEnvOrConfigProperty("url");
 		this.browserVersion = browserVersion;
 		}
 	
-	@Test(dataProvider = "DataSheet",dataProviderClass = ExcelDataProvider.class)
+@Test(dataProvider = "LoginSheet",dataProviderClass = LoginDataProvider.class)
 	
-	public void testLogin(String username,String password) {
+	public void testLogin(Userdata user) {
 		
 		HomePage homePage = new HomePage(browser);
 		LoginPage loginPage = new LoginPage(browser);
 		
 		homePage.navigateToUrl(url, os, osVersion, br, browserVersion);
 		homePage.clickLoginLink();
-		loginPage.login(username, password);
+		loginPage.login(user.getLoginUsername(), user.getLoginPassword());
 	}
 }

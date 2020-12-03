@@ -8,8 +8,10 @@ import org.testng.annotations.Test;
 import com.atmecs.falcon.automation.util.parser.PropertyParser;
 import com.atmecs.falcon.pages.HomePage;
 import com.atmecs.falcon.pages.SignupPage;
+import com.atmecs.falcon.testdata.SignupDataProvider;
+import com.atmecs.falcon.testdata.Userdata;
 import com.atmecs.falcon.testsuite.SampleTestSuiteBase;
-import com.atmecs.falcon.utils.ExcelDataProvider;
+
 
 public class SignupTest extends  SampleTestSuiteBase {
 	String url = PropertyParser.readEnvOrConfigProperty("url");
@@ -22,16 +24,15 @@ public class SignupTest extends  SampleTestSuiteBase {
 	this.browserVersion = browserVersion;
 	}
 	
-	@Test(dataProvider = "DataSheet", dataProviderClass=ExcelDataProvider.class)
-	public void testSignUp(String username, String password) {
+	@Test(dataProvider = "SignupSheet", dataProviderClass = SignupDataProvider.class)
+	public void testSignUp(Userdata user) {
 		
 		HomePage homePage = new HomePage(browser);
 		SignupPage signupPage = new SignupPage(browser);
 		
 		homePage.navigateToUrl(url, os, osVersion, br, browserVersion);
 		homePage.clickSignupLink();
-		signupPage.signUp(username, password);
-		
+		signupPage.signUp(user.getUsername(), user.getPassword());
 		
 	}
 	@AfterMethod
