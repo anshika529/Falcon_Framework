@@ -10,7 +10,7 @@ import com.atmecs.falcon.utils.PropertyReader;
 
 
 public class SignupPage extends BasePage{
-	private ReportLogService report = new ReportLogServiceImpl(HomePage.class);
+	private ReportLogService report = new ReportLogServiceImpl(SignupPage.class);
 	PropertyReader signupPageProperties = new PropertyReader(FilePathConstants.SIGNUP_LOCATOR_PATH);
 
 	public SignupPage(Browser browser) {

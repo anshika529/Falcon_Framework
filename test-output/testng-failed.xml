@@ -11,7 +11,7 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="preSetup"/>
-          <include name="testSignUp" invocation-numbers="1"/>
+          <include name="testSignUp" invocation-numbers="1 2"/>
           <include name="initalizeBrowser"/>
           <include name="teardown"/>
         </methods>

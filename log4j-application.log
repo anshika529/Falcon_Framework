@@ -990,3 +990,69 @@
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-WIN_10_chrome_84  -->
 
+2020-12-04 09:36:20 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-12-04 09:36:20 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable signupTest is: signupTest
+2020-12-04 09:36:20 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_84  is: WIN_10_chrome_84 
+2020-12-04 09:36:21 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-12-04 09:36:21 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [signupTest]
+
+2020-12-04 09:36:21 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84 
+2020-12-04 09:36:21 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84 ">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84 "/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon.testscript.SignupTest"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84  -->
+
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable signupTest is: signupTest
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_84  is: WIN_10_chrome_84 
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [signupTest]
+
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84 
+2020-12-04 10:49:07 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84 ">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84 "/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon.testscript.SignupTest"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84  -->
+
+2020-12-04 11:05:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2020-12-04 11:05:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable signupTest is: signupTest
+2020-12-04 11:05:31 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable WIN_10_chrome_84  is: WIN_10_chrome_84 
+2020-12-04 11:05:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2020-12-04 11:05:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [signupTest]
+
+2020-12-04 11:05:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84 
+2020-12-04 11:05:32 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84 ">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84 "/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.falcon.testscript.SignupTest"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84  -->
+
