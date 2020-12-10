@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SampleTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 03 10:18:57 IST 2020</td>
+<td>Started on:</td><td>Thu Dec 10 16:35:08 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>63 seconds (63947 ms)</td>
+<tr><td>Total time:</td><td>53 seconds (53056 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.falcon.testscript.SignupTest.teardown()'><b>teardown</b><br>Test class: com.atmecs.falcon.testscript.SignupTest</td>
+<td title='com.atmecs.falcon.testscript.LoginTest.closeBrowser()'><b>closeBrowser</b><br>Test class: com.atmecs.falcon.testscript.LoginTest</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 9860, moz:profile: C:\Users\anshika.negi\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e2cba1ea-e3d7-46e3-ad41-e20bf83ac82a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8560, moz:profile: C:\Users\anshika.negi\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d3b445b-5872-4c6f-ab86-6f3ab6cf1ebb
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -91,17 +91,17 @@ Session ID: e2cba1ea-e3d7-46e3-ad41-e20bf83ac82a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
 	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:117)
-	at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:24)
-	at com.atmecs.falcon.runner.TestNGRunner.main(TestNGRunner.java:61)
-	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at com.atmecs.falcon.testscript.LoginTest.closeBrowser(LoginTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace598947725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace598947725'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace405706320", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace405706320'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 9860, moz:profile: C:\Users\anshika.negi\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e2cba1ea-e3d7-46e3-ad41-e20bf83ac82a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8560, moz:profile: C:\Users\anshika.negi\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d3b445b-5872-4c6f-ab86-6f3ab6cf1ebb
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -115,7 +115,76 @@ Session ID: e2cba1ea-e3d7-46e3-ad41-e20bf83ac82a
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
 	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:117)
-	at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:24)
+	at com.atmecs.falcon.testscript.LoginTest.closeBrowser(LoginTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.atmecs.falcon.testscript.LoginTest@4aa17083</td></tr>
+<tr>
+<td title='com.atmecs.falcon.testscript.LoginTest.teardown()'><b>teardown</b><br>Test class: com.atmecs.falcon.testscript.LoginTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ANSHIK~1.NEG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 050f797da7d698fa1ef166c4483c4f6b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:117)
+	at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1471152033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1471152033'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ANSHIK~1.NEG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 050f797da7d698fa1ef166c4483c4f6b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.closeBrowser(Browser.java:117)
+	at com.atmecs.falcon.testsuite.SampleTestSuiteBase.teardown(SampleTestSuiteBase.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -135,20 +204,101 @@ Session ID: e2cba1ea-e3d7-46e3-ad41-e20bf83ac82a
 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at com.atmecs.falcon.runner.TestNGRunner.main(TestNGRunner.java:61)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.atmecs.falcon.testscript.LoginTest@3d1bb31f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.falcon.testscript.LoginTest.teardown()'><b>teardown</b><br>Test class: com.atmecs.falcon.testscript.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.atmecs.falcon.testscript.LoginTest@4aa17083</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecs.falcon.testscript.LoginTest.testLogin()'><b>testLogin</b><br>Test class: com.atmecs.falcon.testscript.LoginTest<br>Parameters: com.atmecs.falcon.testdata.Userdata@1660edd5</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8560, moz:profile: C:\Users\anshika.negi\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d3b445b-5872-4c6f-ab86-6f3ab6cf1ebb
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.maximizeWindow(Browser.java:300)
+	at com.atmecs.falcon.pages.BasePage.navigateToUrl(BasePage.java:12)
+	at com.atmecs.falcon.testscript.LoginTest.testLogin(LoginTest.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace840267679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace840267679'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATMECSINLT-711&apos;, ip: &apos;192.168.63.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8560, moz:profile: C:\Users\anshika.negi\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d3b445b-5872-4c6f-ab86-6f3ab6cf1ebb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.maximizeWindow(Browser.java:300)
+	at com.atmecs.falcon.pages.BasePage.navigateToUrl(BasePage.java:12)
+	at com.atmecs.falcon.testscript.LoginTest.testLogin(LoginTest.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>0</td>
-<td>com.atmecs.falcon.testscript.SignupTest@2b92b990</td></tr>
+<td>8</td>
+<td>com.atmecs.falcon.testscript.LoginTest@4aa17083</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -158,56 +308,35 @@ Session ID: e2cba1ea-e3d7-46e3-ad41-e20bf83ac82a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.falcon.testscript.SignupTest.testSignUp()'><b>testSignUp</b><br>Test class: com.atmecs.falcon.testscript.SignupTest<br>Parameters: com.atmecs.falcon.testdata.Userdata@4dececba<br/>
-<a href="#Output-1931023599" onClick='toggleBox("Output-1931023599", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.falcon.testscript.LoginTest.testLogin()'><b>testLogin</b><br>Test class: com.atmecs.falcon.testscript.LoginTest<br>Parameters: com.atmecs.falcon.testdata.Userdata@303d01dc<br/>
+<a href="#Output-2060546616" onClick='toggleBox("Output-2060546616", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1931023599" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1931023599">
-Click on SignUp Link<br/>
-Insert Username to Signup<br/>
-Insert Password to Signup<br/>
-Click On SignUp Button<br/>
-Getting Alert Message<br/>
-Alert Message = This user already exist.<br/>
+<a href="#Output-2060546616" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2060546616">
+Click on Login Link<br/>
+Enter UserName To Login<br/>
+Enter Password To Login<br/>
+Click On Login Button<br/>
 </div>
 </td>
 <td></td>
-<td>31</td>
-<td>com.atmecs.falcon.testscript.SignupTest@2b92b990</td></tr>
+<td>25</td>
+<td>com.atmecs.falcon.testscript.LoginTest@4aa17083</td></tr>
 <tr>
-<td title='com.atmecs.falcon.testscript.SignupTest.testSignUp()'><b>testSignUp</b><br>Test class: com.atmecs.falcon.testscript.SignupTest<br>Parameters: com.atmecs.falcon.testdata.Userdata@64690532<br/>
-<a href="#Output-795977612" onClick='toggleBox("Output-795977612", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.atmecs.falcon.testscript.LoginTest.testLogin()'><b>testLogin</b><br>Test class: com.atmecs.falcon.testscript.LoginTest<br>Parameters: com.atmecs.falcon.testdata.Userdata@55bad3a4<br/>
+<a href="#Output-1203086253" onClick='toggleBox("Output-1203086253", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-795977612" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-795977612">
-Click on SignUp Link<br/>
-Insert Username to Signup<br/>
-Insert Password to Signup<br/>
-Click On SignUp Button<br/>
-Getting Alert Message<br/>
-Alert Message = This user already exist.<br/>
+<a href="#Output-1203086253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1203086253">
+Click on Login Link<br/>
+Enter UserName To Login<br/>
+Enter Password To Login<br/>
+Click On Login Button<br/>
 </div>
 </td>
 <td></td>
-<td>12</td>
-<td>com.atmecs.falcon.testscript.SignupTest@2b92b990</td></tr>
-<tr>
-<td title='com.atmecs.falcon.testscript.SignupTest.testSignUp()'><b>testSignUp</b><br>Test class: com.atmecs.falcon.testscript.SignupTest<br>Parameters: com.atmecs.falcon.testdata.Userdata@377123a<br/>
-<a href="#Output-1125502048" onClick='toggleBox("Output-1125502048", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1125502048" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1125502048">
-Click on SignUp Link<br/>
-Insert Username to Signup<br/>
-Insert Password to Signup<br/>
-Click On SignUp Button<br/>
-Getting Alert Message<br/>
-Alert Message = Please fill out Username and Password.<br/>
-</div>
-</td>
-<td></td>
-<td>8</td>
-<td>com.atmecs.falcon.testscript.SignupTest@2b92b990</td></tr>
+<td>7</td>
+<td>com.atmecs.falcon.testscript.LoginTest@4aa17083</td></tr>
 </table><p>
 </body>
 </html>

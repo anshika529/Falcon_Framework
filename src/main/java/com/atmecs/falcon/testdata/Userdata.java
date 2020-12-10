@@ -3,14 +3,16 @@ package com.atmecs.falcon.testdata;
 public class Userdata {
 	String username;
 	String password;
-	String LoginUsername;
-	String LoginPassword;
+	String email;
+	String name;
+	String message;
 	
-	public String getUsername() {
+	public String getUserName() {
 		return username;
 	}
-	public void setUsername(String username) {
+	public void setUserName(String username) {
 		this.username = username;
+		
 	}
 	public String getPassword() {
 		return password;
@@ -18,17 +20,25 @@ public class Userdata {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getLoginUsername() {
-		return LoginUsername;
-	}
-	public void setLoginUsername(String loginUsername) {
-		LoginUsername = loginUsername;
-	}
-	public String getLoginPassword() {
-		return LoginPassword;
-	}
-	public void setLoginPassword(String loginPassword) {
-		LoginPassword = loginPassword;
-	}
 	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+		
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
 }

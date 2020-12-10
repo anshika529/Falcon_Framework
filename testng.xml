@@ -7,6 +7,8 @@
 		
 		<suite-file path="./src/main/resources/suitefile/signupTest.xml" />
 		<suite-file path="./src/main/resources/suitefile/loginTest.xml" />
+		<suite-file path="./src/main/resources/suitefile/contactUsTest.xml" />
+			<suite-file path="./src/main/resources/suitefile/allmodule.xml" />
 	</suite-files>
 
 </suite>

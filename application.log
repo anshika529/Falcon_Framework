@@ -1,11 +1,8 @@
-2020-12-04 11:05:46,138  INFO [TestNG-suites-1] HomePage:51 - Click on SignUp Link
-2020-12-04 11:05:46,308  INFO [TestNG-suites-1] HomePage:51 - Insert Username to Signup
-2020-12-04 11:05:46,623  INFO [TestNG-suites-1] HomePage:51 - Insert Password to Signup
-2020-12-04 11:05:46,836  INFO [TestNG-suites-1] HomePage:51 - Click On SignUp Button
-2020-12-04 11:05:46,968  INFO [TestNG-suites-1] HomePage:51 - Getting Alert Message
-2020-12-04 11:05:48,108  INFO [TestNG-suites-1] HomePage:51 - Alert Message = This user already exist.
-2020-12-04 11:06:00,057  INFO [TestNG-suites-1] HomePage:51 - Click on SignUp Link
-2020-12-04 11:06:00,237  INFO [TestNG-suites-1] HomePage:51 - Insert Username to Signup
-2020-12-04 11:06:12,453  INFO [TestNG-suites-1] HomePage:51 - Click on SignUp Link
-2020-12-04 11:06:12,760  INFO [TestNG-suites-1] HomePage:51 - Insert Username to Signup
-2020-12-04 11:06:14,677 ERROR [com.atmecs.falcon.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2020-12-10 18:05:25,560  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] HomePage:51 - Click on ContactUs Link
+2020-12-10 18:05:25,929  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] ContactUsPage:51 - Enter Data In Email Field
+2020-12-10 18:05:26,065  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] ContactUsPage:51 - Enter Data In Name Field
+2020-12-10 18:05:26,186  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] ContactUsPage:51 - Enter Data In Message Field
+2020-12-10 18:05:26,299  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] ContactUsPage:51 - Click On Send Message Button
+2020-12-10 18:05:26,428  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] ContactUsPage:51 - Getting Alert Message
+2020-12-10 18:05:26,494  INFO [com.atmecs.falcon.runner.TestNGRunner.main()] ContactUsPage:51 - Alert Message =Thanks for the message!!
+2020-12-10 18:05:32,054 ERROR [com.atmecs.falcon.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false

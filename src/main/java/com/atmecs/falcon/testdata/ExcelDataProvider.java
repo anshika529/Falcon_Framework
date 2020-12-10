@@ -7,8 +7,9 @@ import org.testng.annotations.DataProvider;
 import com.atmecs.falcon.automation.util.parser.XlsReader;
 import com.atmecs.falcon.constant.FilePathConstants;
 
-public class SignupDataProvider {
-@DataProvider(name = "SignupSheet")
+public class ExcelDataProvider {
+
+	@DataProvider(name = "DataSheet")
 	
 	public static Object[][] getXlsData () {
 		XlsReader xlsReader = new XlsReader();
@@ -17,7 +18,7 @@ public class SignupDataProvider {
 		} catch (IOException e) {
 		e.printStackTrace();
 		}
-		String sheetName = "SignupSheet";
+		String sheetName = "DataSheet";
 		int rowCount = xlsReader.getRowCount(sheetName);
 		int colCount = xlsReader.getColumnCount(sheetName);
 
@@ -27,15 +28,16 @@ public class SignupDataProvider {
 		Object[][] data = new Object[rowCount][1];
 
 		for (int rowIndex = 1; rowIndex < rowCount + 1; rowIndex++) {
-			Userdata userdata = new Userdata();
-			userdata.setUsername(xlsReader.getCellDataByColumnIndex(sheetName, 0, rowIndex));
-			userdata.setPassword(xlsReader.getCellDataByColumnIndex(sheetName, 1, rowIndex));
-			data[rowIndex - 1][0] = userdata;
+			Userdata user = new Userdata();
+			user.setUserName(xlsReader.getCellDataByColumnIndex(sheetName, 0, rowIndex));
+			user.setPassword(xlsReader.getCellDataByColumnIndex(sheetName, 1, rowIndex));
+			data[rowIndex - 1][0] = user;
 		}
-	return data;
-}
-}
-//@DataProvider(name = "DataSheet")
+		return data;
+
+	}
+	
+//	@DataProvider(name = "DataSheet")
 //	
 //	public static Object[][] getXlsData () {
 //		XlsReader xlsReader = new XlsReader();
@@ -58,7 +60,9 @@ public class SignupDataProvider {
 //		String value = xlsReader.getCellDataByColumnIndex(sheetName, columnIndex, rowIndex);
 //		data[rowIndex - 1][columnIndex] = value;
 //		}
+//
 //		}
 //		return data;
-//}
-
+//
+//	}
+}

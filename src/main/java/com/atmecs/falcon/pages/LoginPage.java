@@ -16,19 +16,19 @@ public class LoginPage extends BasePage {
 		super(browser);
 
 	}
-	public void login(String LoginUsername, String LoginPassword) {
-		System.out.println("LoginUsername ="+ LoginUsername);
-		System.out.println("LoginPassword ="+ LoginPassword);
+	public void login(String username, String password) {
+		System.out.println("LoginUsername ="+ username);
+		System.out.println("LoginPassword ="+ password);
 		report.info("Enter UserName To Login");
 		browser.getWait().waitForElementPresence(LocatorType.XPATH, loginPageProperties.get("LoginUsername"), 2000);
-		browser.getTextField().enterTextField(LocatorType.XPATH, loginPageProperties.get("LoginUsername"), LoginUsername);
+		browser.getTextField().enterTextField(LocatorType.XPATH, loginPageProperties.get("LoginUsername"), username);
 		report.info("Enter Password To Login");
 		browser.getWait().waitForElementPresence(LocatorType.XPATH, loginPageProperties.get("LoginPassword"), 2000);
-		browser.getTextField().enterTextField(LocatorType.XPATH, loginPageProperties.get("LoginPassword"), LoginPassword);
+		browser.getTextField().enterTextField(LocatorType.XPATH, loginPageProperties.get("LoginPassword"), password);
 		report.info("Click On Login Button");
 		browser.getFindFromBrowser().findElementByXpath(loginPageProperties.get("LoginButton")).click();
-		report.info("Getting Alert Message");
-		String alertText = browser.getAlert().getAlertText(2000);
-		report.info("Alert Message = " + alertText);
+//		report.info("Getting Alert Message");
+//		String alertText = browser.getAlert().getAlertText(2000);
+//		report.info("Alert Message = " + alertText);
 	}
 }

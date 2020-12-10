@@ -1,14 +1,17 @@
 package com.atmecs.falcon.testscript;
 
+
+import org.testng.annotations.Test;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+
 
 import com.atmecs.falcon.automation.util.parser.PropertyParser;
 import com.atmecs.falcon.pages.HomePage;
 import com.atmecs.falcon.pages.SignupPage;
-import com.atmecs.falcon.testdata.SignupDataProvider;
+import com.atmecs.falcon.testdata.ExcelDataProvider;
 import com.atmecs.falcon.testdata.Userdata;
 import com.atmecs.falcon.testsuite.SampleTestSuiteBase;
 
@@ -24,7 +27,7 @@ public class SignupTest extends  SampleTestSuiteBase {
 	this.browserVersion = browserVersion;
 	}
 	
-	@Test(dataProvider = "SignupSheet", dataProviderClass = SignupDataProvider.class)
+	@Test(dataProvider = "DataSheet", dataProviderClass=ExcelDataProvider.class)
 	public void testSignUp(Userdata user) {
 		
 		HomePage homePage = new HomePage(browser);
@@ -32,7 +35,8 @@ public class SignupTest extends  SampleTestSuiteBase {
 		
 		homePage.navigateToUrl(url, os, osVersion, br, browserVersion);
 		homePage.clickSignupLink();
-		signupPage.signUp(user.getUsername(), user.getPassword());
+		signupPage.signUp(user.getUserName(), user.getPassword());
+		
 		
 	}
 	@AfterMethod

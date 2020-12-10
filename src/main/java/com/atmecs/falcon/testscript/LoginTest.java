@@ -1,5 +1,6 @@
 package com.atmecs.falcon.testscript;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -7,10 +8,9 @@ import org.testng.annotations.Test;
 import com.atmecs.falcon.automation.util.parser.PropertyParser;
 import com.atmecs.falcon.pages.HomePage;
 import com.atmecs.falcon.pages.LoginPage;
-import com.atmecs.falcon.testdata.LoginDataProvider;
+import com.atmecs.falcon.testdata.ExcelDataProvider;
 import com.atmecs.falcon.testdata.Userdata;
 import com.atmecs.falcon.testsuite.SampleTestSuiteBase;
-
 
 public class LoginTest extends SampleTestSuiteBase {
 String url = PropertyParser.readEnvOrConfigProperty("url");
@@ -25,7 +25,7 @@ String url = PropertyParser.readEnvOrConfigProperty("url");
 		this.browserVersion = browserVersion;
 		}
 	
-@Test(dataProvider = "LoginSheet",dataProviderClass = LoginDataProvider.class)
+	@Test(dataProvider = "DataSheet",dataProviderClass = ExcelDataProvider.class)
 	
 	public void testLogin(Userdata user) {
 		
@@ -34,6 +34,10 @@ String url = PropertyParser.readEnvOrConfigProperty("url");
 		
 		homePage.navigateToUrl(url, os, osVersion, br, browserVersion);
 		homePage.clickLoginLink();
-		loginPage.login(user.getLoginUsername(), user.getLoginPassword());
+		loginPage.login(user.getUserName(), user.getPassword());
 	}
+	@AfterMethod
+	public void closeBrowser() {
+		browser.closeBrowser();
+}
 }
