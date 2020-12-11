@@ -1,1 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample Suite File -->
+
+<suite name="Sample">
+
+	<test name="SampleTest">
+		<classes>
+		<class name="com.atmecs.falcon.testscript.SignupTest" />
+			<class name="com.atmecs.falcon.testscript.LoginTest" />
+			
+			<class name="com.atmecs.falcon.testscript.ContactUsTest" />
+		</classes>
+	</test>
+
+</suite>
